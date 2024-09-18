@@ -1,0 +1,121 @@
+{
+  "pokemon": [
+    {
+      "id": 1,
+      "name": "bulbasaur",
+      "description": "For some time after its birth, it uses the nutrients that are packed into the seed on its back in order to grow.",
+      "image_url": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.png",
+      "height": 2.4,
+      "weight": 15.2,
+      "abilities": ["overgrow"],
+      "type": "grass",
+      "weekness": ["fire", "flying", "ice", "psychic"],
+      "evolution": [
+        { "id": 2, "name": "Ivysaur" },
+        { "id": 3, "name": "venusaur" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Ivysaur",
+      "description": "The more sunlight Ivysaur bathes in, the more strength wells up within it, allowing the bud on its back to grow larger.",
+      "image_url": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/002.png",
+      "height": 3.03,
+      "weight": 28.7,
+      "abilities": ["overgrow"],
+      "type": "grass",
+      "weekness": ["fire", "flying", "ice", "psychic"],
+      "evolution": [{ "id": 3, "name": "venusaur" }]
+    },
+    {
+      "id": 3,
+      "name": "venusaur",
+      "description": "While it basks in the sun, it can convert the light into energy. As a result, it is more powerful in the summertime.",
+      "image_url": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/003.png",
+      "height": 6.07,
+      "weight": 220.5,
+      "abilities": ["overgrow"],
+      "type": "grass",
+      "weekness": ["fire", "flying", "ice", "psychic"],
+      "evolution": []
+    },
+    {
+      "id": 4,
+      "name": "Charmander",
+      "description": "The flame on its tail shows the strength of its life-force. If Charmander is weak, the flame also burns weakly.",
+      "image_url": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/004.png",
+      "height": 2.0,
+      "weight": 18.7,
+      "abilities": ["blaze"],
+      "type": "fire",
+      "weekness": ["water", "ground", "rock"],
+      "evolution": [
+        { "id": 5, "name": "charmeleon" },
+        { "id": 6, "name": "charizard" }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Charmeleon",
+      "description": "When it swings its burning tail, the temperature around it rises higher and higher, tormenting its opponents.",
+      "image_url": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/005.png",
+      "height": 3.07,
+      "weight": 41.9,
+      "abilities": ["blaze"],
+      "type": "fire",
+      "weekness": ["water", "ground", "rock"],
+      "evolution": [{ "id": 6, "name": "charizard" }]
+    },
+    {
+      "id": 6,
+      "name": "Charizard",
+      "description": "If Charizard becomes truly angered, the flame at the tip of its tail burns in a light blue shade.",
+      "image_url": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/006.png",
+      "height": 5.07,
+      "weight": 199.5,
+      "abilities": ["blaze"],
+      "type": "fire",
+      "weekness": ["water", "ground", "rock"],
+      "evolution": []
+    },
+    {
+      "id": 7,
+      "name": "Squirtle",
+      "description": "After birth, its back swells and hardens into a shell. It sprays a potent foam from its mouth.",
+      "image_url": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/007.png",
+      "height": 1.08,
+      "weight": 19.8,
+      "abilities": ["torrent"],
+      "type": "water",
+      "weekness": ["grass", "electric"],
+      "evolution": [
+        { "id": 8, "name": "wartortle" },
+        { "id": 9, "name": "blastoise" }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "wartortle",
+      "description": "Wartortle’s long, furry tail is a symbol of longevity, so this Pokémon is quite popular among older people.",
+      "image_url": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/008.png",
+      "height": 3.03,
+      "weight": 49.6,
+      "abilities": ["torrent"],
+      "type": "water",
+      "weekness": ["grass", "electric"],
+      "evolution": [{ "id": 9, "name": "blastoise" }]
+    },
+    {
+      "id": 9,
+      "name": "Blastoise",
+      "description": "It deliberately increases its body weight so it can withstand the recoil of the water jets it fires.",
+      "image_url": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/009.png",
+      "height": 5.03,
+      "weight": 188.5,
+      "abilities": ["torrent"],
+      "type": "water",
+      "weekness": ["grass", "electric"],
+      "evolution": []
+    }
+  ]
+}
